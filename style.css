@@ -1,0 +1,107 @@
+html{
+    font-size: 10px;
+}
+.head{
+display: flex;
+font-size: 2rem;
+justify-content: center;
+gap: 8rem;
+ align-items: center;
+}
+.foodwaGon{
+    color: rgba(241, 114, 40, 1);   
+}
+.Mask{
+    transform: translateX(5rem);
+}
+.Login{
+    transform: translateY(2rem);
+    background-color: rgba(255, 255, 255, 1);
+    height:4.6rem ;
+    width: 9rem;
+    color: rgba(255, 184, 0, 1);
+    text-align: center;
+    box-shadow: 5px 5px 10px 0px rgba(255, 174, 0, 0.29);
+    cursor: pointer;
+    transition: all 0.3s ease;   
+}
+.Login:hover{
+     background-color: #d95d10
+     transform scale(1.05); 
+      box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+main{
+    background-color: rgb(212, 212, 16);
+    height: 50rem;
+}
+.starving{
+    color: rgba(255, 255, 255, 1);
+    font-size: 6.5rem;
+    margin-left: 14rem;
+   transform: translateY(9rem);
+}
+.text{
+    font-size: 2rem;
+    margin-left: 15rem;
+    margin-top: 10rem;
+
+}
+.searchbox{
+    display: flex;
+    align-items: center;
+    
+}
+.Icon{
+    background-color: rgba(241, 114, 40, 0.1);
+    width: 10rem;
+    border-radius: 8px;
+    height: 4rem;
+    text-align: center;
+    font-size: 1.6rem;
+    color: rgba(241, 114, 40, 1)s;
+}
+.Icon1{
+    font-size: 2rem;   
+}
+.twoicon{
+    display: flex;
+    gap: 10rem;
+}
+.Address{
+    margin-top: 8rem;
+      transform: translateX(-38rem);
+      
+}
+.input{
+    border-radius: 0.8rem;
+    width: 45rem;
+    height: 4.9rem;
+}
+.findfoodclass{
+    color: rgba(255, 255, 255, 1);
+    font-size: 2rem;
+    background-color: rgba(246, 89, 0, 1);
+    border-radius: 0.8rem;
+    width: 20rem;
+    height: 4rem;
+    text-align: center;
+    align-items: center;
+    transform: translateX(50rem);
+    
+}
+.FindFood{
+    margin-top: -5rem;
+    cursor: pointer;
+}
+.maindiv{
+    background-color: rgba(255, 255, 255, 1);
+    width: 100rem;
+    height: 20rem;
+    margin-left: 5rem;
+    border-radius: 2rem;
+}
+.image{
+    width: 40rem;
+    margin-left: 100rem;
+   transform: translateY(-19rem);
+}
